@@ -1,0 +1,38 @@
+{
+  "name": "saas-kit",
+  "private": true,
+  "type": "module",
+  "workspaces": {
+    "packages": [
+      "apps/*",
+      "packages/*"
+    ],
+    "catalog": {
+      "@types/node": "^26.6.4",
+      "dotenv": "^18.0.5",
+      "typescript": "^6.0.3",
+      "zod": "^4.6.5"
+    }
+  },
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "check-types": "turbo check-types",
+    "format": "turbo format",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "dotenv": "catalog:",
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.5.15",
+    "@saas-kit/config": "workspace:*",
+    "@types/node": "catalog:",
+    "husky": "^9.1.7",
+    "lint-staged": "^17.6.0",
+    "turbo": "2.11.7",
+    "typescript": "catalog:"
+  },
+  "packageManager": "bun@1.4.2"
+}
