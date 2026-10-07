@@ -1,3 +1,4 @@
+import "@saas-kit/env/server";
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
