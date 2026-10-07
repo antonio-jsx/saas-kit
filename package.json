@@ -19,6 +19,9 @@
     "build": "turbo build",
     "check-types": "turbo check-types",
     "format": "turbo format",
+    "db:generate": "turbo -F @saas-kit/db db:generate",
+    "db:push": "turbo -F @saas-kit/db db:push",
+    "db:migrate": "turbo -F @saas-kit/db db:migrate",
     "prepare": "husky"
   },
   "dependencies": {
