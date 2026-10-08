@@ -9,6 +9,7 @@
     ],
     "catalog": {
       "@types/node": "^26.6.4",
+      "better-auth": "1.7.7",
       "dotenv": "^18.0.5",
       "typescript": "^6.0.3",
       "zod": "^4.6.5"
@@ -19,8 +20,8 @@
     "build": "turbo build",
     "check-types": "turbo check-types",
     "format": "turbo format",
-    "db:generate": "turbo -F @saas-kit/db db:generate",
     "db:push": "turbo -F @saas-kit/db db:push",
+    "db:generate": "turbo -F @saas-kit/db db:generate",
     "db:migrate": "turbo -F @saas-kit/db db:migrate",
     "prepare": "husky"
   },
