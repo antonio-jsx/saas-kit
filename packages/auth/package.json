@@ -12,7 +12,8 @@
   },
   "scripts": {
     "check-types": "tsc --noEmit",
-    "format": "biome check --write"
+    "format": "biome check --write",
+    "clean": "rm -rf .turbo node_modules dist"
   },
   "dependencies": {
     "@better-auth/drizzle-adapter": "1.7.7",

@@ -30,6 +30,7 @@
     "db:generate": "turbo -F @saas-kit/db db:generate",
     "db:migrate": "turbo -F @saas-kit/db db:migrate",
     "ui:add": "bunx --bun shadcn@latest add -c packages/ui",
+    "clean": "rm -rf .turbo && turbo run clean",
     "prepare": "husky"
   },
   "dependencies": {

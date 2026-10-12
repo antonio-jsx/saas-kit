@@ -12,6 +12,9 @@
       "persistent": true
     },
     "format": { "dependsOn": ["^format"] },
+    "clean": {
+      "cache": false
+    },
     "check-types": {
       "dependsOn": ["^check-types"]
     },

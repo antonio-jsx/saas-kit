@@ -5,7 +5,8 @@
   "private": true,
   "scripts": {
     "check-types": "tsc --noEmit",
-    "format": "biome check --write"
+    "format": "biome check --write",
+    "clean": "rm -rf .turbo node_modules dist"
   },
   "dependencies": {
     "@base-ui/react": "^1.8.0",
