@@ -1,4 +1,4 @@
-import { Button } from "@saas-kit/ui/components/ui/button";
+import { Button } from "@saas-kit/ui/components/button";
 
 export default function Home() {
   return <Button variant="outline">Wellcome</Button>;
