@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@saas-kit/auth": "workspace:*",
+    "@saas-kit/db": "workspace:*",
     "@saas-kit/env": "workspace:*",
     "@saas-kit/ui": "workspace:*",
     "better-auth": "catalog:",

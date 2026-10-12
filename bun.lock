@@ -23,6 +23,7 @@
       "version": "0.1.0",
       "dependencies": {
         "@saas-kit/auth": "workspace:*",
+        "@saas-kit/db": "workspace:*",
         "@saas-kit/env": "workspace:*",
         "@saas-kit/ui": "workspace:*",
         "better-auth": "catalog:",
@@ -43,6 +44,7 @@
     },
     "packages/auth": {
       "name": "@saas-kit/auth",
+      "version": "0.1.0",
       "dependencies": {
         "@better-auth/drizzle-adapter": "1.7.7",
         "@saas-kit/db": "workspace:*",
@@ -63,6 +65,7 @@
     },
     "packages/db": {
       "name": "@saas-kit/db",
+      "version": "0.0.0",
       "dependencies": {
         "@saas-kit/env": "workspace:*",
         "dotenv": "catalog:",
